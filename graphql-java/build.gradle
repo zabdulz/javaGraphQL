@@ -9,6 +9,7 @@ apply plugin: 'maven'
 apply plugin: 'maven-publish'
 apply plugin: 'antlr'
 apply plugin: 'osgi'
+apply plugin: 'eclipse'
 
 def getDevelopmentVersion() {
     def output = new StringBuilder()

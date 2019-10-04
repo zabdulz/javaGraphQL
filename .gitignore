@@ -1,2 +1,2 @@
-graphql-java/build/docs/*
-build/*
+/build/
+/.gradle/
