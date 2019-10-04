@@ -1,4 +1,6 @@
-package graphql.schema.idl
+package graphql.schema.idl;
+
+
 
 import graphql.ExecutionInput
 import graphql.GraphQL
@@ -317,7 +319,7 @@ class SchemaGeneratorDirectiveHelperTest extends Specification {
                 return field
             }
 
-            static String toMixedCase(String s) {
+            String toMixedCase(String s) {
                 def out = ""
                 s.eachWithIndex { String ch, int i ->
                     out += (i % 2 == 0) ? ch.toUpperCase() : ch.toLowerCase()
